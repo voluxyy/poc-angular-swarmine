@@ -1,0 +1,47 @@
+p {
+    font-size: 200px;
+    color: aqua;
+}
+
+.greyCloud {
+}
+
+.orangeCloud {
+    margin-top: 70%;
+    margin-left: 30%;
+}
+
+.greenCloud {
+    margin-left: 50%;
+}
+
+.button {
+    height: 30px;
+    width: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+    text-decoration: none;
+    color: white;   
+
+    border-radius: 50%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.networkModalButton {
+    border: solid 1px rgb(0, 81, 255);
+    background-color: rgb(0, 81, 255);
+}
+
+.boardModalButton {
+    border: solid 1px orange;
+    background-color: orange;
+}

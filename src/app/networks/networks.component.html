@@ -1,0 +1,29 @@
+<div>
+    <div class="greyCloud" (mouseover)="changetext=true" (mouseleave)="changetext=false" (mouseover)="Cloud='grey'">
+        <div>
+            <img src="../../assets/greyCloud-removebg-preview.png" alt="greyCloud.png">
+            <div class="greyCloud button2" (mouseover)="changetext=true" (mouseleave)="changetext=false" (mouseover)="Cloud='grey'">
+                <button class="networkModalButton button" *ngIf="changetext && Cloud == 'grey'" (click)="openDialog('400ms', '250ms', 'Networks')">+</button>
+                <button class="boardModalButton button" *ngIf="changetext && Cloud == 'grey'" (click)="openDialog('400ms', '250ms', 'Board')">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="orangeCloud" (mouseover)="changetext=true" (mouseleave)="changetext=false" (mouseover)="Cloud='orange'">
+        <div>
+            <img src="../../assets/orangeCloud-removebg-preview.png" alt="orangeCloud.png">
+            <div class="orangeCloud" (mouseover)="changetext=true" (mouseleave)="changetext=false" (mouseover)="Cloud='orange'">
+                <button class="networkModalButton button" *ngIf="changetext && Cloud == 'orange'" (click)="openDialog('400ms', '250ms', 'Networks')">+</button>
+                <button class="boardModalButton button" *ngIf="changetext && Cloud == 'orange'" (click)="openDialog('400ms', '250ms', 'Board')">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="greenCloud" (mouseover)="changetext=true" (mouseleave)="changetext=false" (mouseover)="Cloud='green'">
+        <div>
+            <img src="../../assets/greenCloud-removebg-preview.png" alt="greenCloud.png">
+            <div class="greenCloud button" (mouseover)="changetext=true" (mouseleave)="changetext=false" (mouseover)="Cloud='green'">
+                <button class="networkModalButton button" *ngIf="changetext && Cloud == 'green'" (click)="openDialog('400ms', '250ms', 'Networks')">+</button>
+                <button class="boardModalButton button" *ngIf="changetext && Cloud == 'green'" (click)="openDialog('400ms', '250ms', 'Board')">+</button>
+            </div>
+        </div>
+    </div>
+</div>

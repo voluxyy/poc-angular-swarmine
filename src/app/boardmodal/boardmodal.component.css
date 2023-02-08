@@ -1,0 +1,25 @@
+#body{
+    display: flexbox;
+    padding: 5% 10% 10%;
+}
+
+#btn {
+    display: flex;
+    margin: 2% 90%;
+}
+
+#btnNoBox {
+    margin: 0 1%;
+}
+
+#btnOkBox {
+    margin: 0 1%;
+}
+
+#btnNO {
+    
+}
+
+#btnOK {
+    
+}

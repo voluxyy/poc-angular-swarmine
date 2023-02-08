@@ -1,0 +1,14 @@
+#Block1 {
+    width: 525px;
+    margin:auto;
+}
+#Block1 h2 {
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 5em;
+    color: #d6531f;
+}
+#GifError {
+    display: flex;
+    justify-content: center;
+}
