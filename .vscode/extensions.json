@@ -1,4 +1,43 @@
 {
+<<<<<<< HEAD
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
   "recommendations": ["angular.ng-template"]
 }
+=======
+	"recommendations": [
+		"angular.ng-template",
+		"aaron-bond.better-comments",
+		"bierner.markdown-mermaid",
+		"blodwynn.featurehighlight",
+		"bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+		"bungcip.better-toml",
+		"davidanson.vscode-markdownlint",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"emeraldwalk.runonsave",
+		"firsttris.vscode-jest-runner",
+		"ghaschel.vscode-angular-html",
+		"hediet.vscode-drawio",
+		"janisdd.vscode-edit-csv",
+		"jannisx11.batch-rename-extension",
+		"jithurjacob.nbpreviewer",
+		"johnpapa.vscode-peacock",
+		"mhutchie.git-graph",
+		"ms-azuretools.vscode-docker",
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
+		"ms-python.python",
+		"ms-vscode.vscode-typescript-tslint-plugin",
+		"nrwl.angular-console",
+		"pkief.material-icon-theme",
+		"prisma.prisma",
+		"rust-lang.rust-analyzer",
+		"streetsidesoftware.code-spell-checker",
+		"stylelint.vscode-stylelint",
+		"tomoyukim.vscode-mermaid-editor",
+		"tyriar.sort-lines",
+		"vangware.dark-plus-material",
+		"wmaurer.change-case",
+		"zengxingxin.sort-js-object-keys"
+	]
+}
+>>>>>>> f128f68 (feat: first commit)

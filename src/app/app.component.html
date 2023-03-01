@@ -1,24 +1,24 @@
 <form method="post">
     <label>Nom d'item : </label>
-    <input inputmode="text" placeholder="Enter Name..." ng-model="userInput">
+    <input id="userInput" inputmode="text" placeholder="Enter Name..." ng-model="userInput">
 
-    <button (click)="addItem(userInput)">Click to add a gridster item</button>
-    <button (click)="read(userInput)">Click to read input</button>
+    <button (click)="addItem()">Click to add a gridster item</button>
+    <button (click)="read()">Click to read input</button>
     <button (click)="showStat()">Click to show dashboard stat</button>
 
 </form>
 
 
 <gridster [options]="options">
-    <gridster-item [item]="item" *ngFor="let item of dashboard">
+    <gridster-item [item]="item" *ngFor="let item of dashboard" draggable="true">
         <div class="button-holder">
             <button
               mat-mini-fab
-              (mousedown)="removeItem(item)"
+              (click)="removeItem(item)"
               (touchstart)="removeItem(item)"
             >
-            Bruuhhh
-              <!--<mat-icon>delete</mat-icon>-->
+            Remove
+            <!--<mat-icon>delete</mat-icon>-->
             </button>
           </div>
     </gridster-item>
